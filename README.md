@@ -1,4 +1,4 @@
-Starting CircleCI with a Drupal project involves specific steps to ensure proper integration and automated testing. Here’s a general guide to get you started:
+Starting **CircleCI with a Drupal project** involves specific steps to ensure proper **integration and automated testing**. Here’s a general guide to get you started:
 
  1. Set Up CircleCI Account: First, sign up for CircleCI and connect it to your Version Control System (VCS), like GitHub or Bitbucket, where your Drupal project is hosted.
  2. Add Your Drupal Project: In CircleCI, add your Drupal project from your VCS.
@@ -8,7 +8,7 @@ Starting CircleCI with a Drupal project involves specific steps to ensure proper
  6. Monitor and Debug Builds: Use the CircleCI dashboard to monitor your builds. If a build fails, you can use the logs provided by CircleCI to troubleshoot.
  7. Optimize Your Configuration: As you work with CircleCI, you may need to tweak your config.yml to suit your project’s needs better, such as adjusting caching strategies or parallelizing tests.
 
-Benefits of Using CircleCI with Drupal:
+**Benefits of Using CircleCI with Drupal:**
 
  1. Automated Testing: Automatically run tests on your Drupal codebase with each commit, helping to identify issues early.
  2. Continuous Integration: Merge code changes more frequently and reliably, ensuring that new code integrates seamlessly with the existing codebase.
