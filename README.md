@@ -2,11 +2,11 @@
 
 ** 1. Set Up CircleCI Account:** First, sign up for CircleCI and connect it to your Version Control System (VCS), like GitHub or Bitbucket, where your Drupal project is hosted.
 ** 2. Add Your Drupal Project:** In CircleCI, add your Drupal project from your VCS.
- **3. Create config.yml File:** In your Drupal project repository, create a .circleci directory and add a config.yml file. This file defines the build process and testing environment.
- **4. Configure Your Build:** Customize the config.yml file for Drupal. Typically, this includes steps to set up PHP, install dependencies with Composer, set up a database (like MySQL), and run Drupal-specific tests. You might also set up additional tools like Drush.
- **5. Commit and Push Changes:** Once you have configured your config.yml, commit and push it to your repository. CircleCI will trigger a build based on this configuration.
- **6. Monitor and Debug Builds:** Use the CircleCI dashboard to monitor your builds. If a build fails, you can use the logs provided by CircleCI to troubleshoot.
- **7. Optimize Your Configuration: **As you work with CircleCI, you may need to tweak your config.yml to suit your project’s needs better, such as adjusting caching strategies or parallelizing tests.
+**3. Create config.yml File:** In your Drupal project repository, create a .circleci directory and add a config.yml file. This file defines the build process and testing environment.
+**4. Configure Your Build:** Customize the config.yml file for Drupal. Typically, this includes steps to set up PHP, install dependencies with Composer, set up a database (like MySQL), and run Drupal-specific tests. You might also set up additional tools like Drush.
+**5. Commit and Push Changes:** Once you have configured your config.yml, commit and push it to your repository. CircleCI will trigger a build based on this configuration.
+**6. Monitor and Debug Builds:** Use the CircleCI dashboard to monitor your builds. If a build fails, you can use the logs provided by CircleCI to troubleshoot.
+**7. Optimize Your Configuration: **As you work with CircleCI, you may need to tweak your config.yml to suit your project’s needs better, such as adjusting caching strategies or parallelizing tests.
 
 **Benefits of Using CircleCI with Drupal:
 **
